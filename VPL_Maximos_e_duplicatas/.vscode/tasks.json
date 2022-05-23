@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compilar",
+			"type": "shell",
+			"command": "g++ binario_decimal.cpp -o binario_decimal -g",
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Executar",
+			"type": "shell",
+			"command": "./binario_decimal",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
